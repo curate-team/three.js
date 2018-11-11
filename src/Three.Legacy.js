@@ -1340,7 +1340,7 @@ Object.assign( WebGLRenderer.prototype, {
 
 	animate: function ( callback ) {
 
-		console.warn( 'THREE.WebGLRenderer: .animate() is now .setAnimationLoop().' );
+		// console.warn( 'THREE.WebGLRenderer: .animate() is now .setAnimationLoop().' );
 		this.setAnimationLoop( callback );
 
 	},
